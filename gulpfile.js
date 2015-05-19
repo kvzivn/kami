@@ -17,6 +17,6 @@ gulp.task('styles', function() {
     .pipe(gulp.dest('dist/stylesheets'));
 });
 
-gulp.watch('stylesheets/*.styl', ['styles']);
+gulp.watch('src/stylesheets/*.styl', ['styles']);
 
 gulp.task('default', ['styles']);
