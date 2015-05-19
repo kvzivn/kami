@@ -1189,11 +1189,8 @@ body {
   height: 480px;
   background: #f1f6dd;
 }
-.row:nth-of-type(6) .col {
-  background: #a1be30;
-}
 .row:nth-of-type(6) .col .col {
-  background: #8da62a;
+  background: #a1be30;
 }
 
 /*# sourceMappingURL=styles.css.map */
