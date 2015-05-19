@@ -1,0 +1,15 @@
+{
+  "name": "tenko",
+  "version": "1.0.0",
+  "description": "A grid system example built with lost.",
+  "author": "Kevin Ivan (http://kevinivan.com)",
+  "license": "MIT",
+  "dependencies": {
+    "gulp-sourcemaps": "^1.5.2",
+    "autoprefixer": "^5.1.1",
+    "gulp": "^3.8.11",
+    "gulp-postcss": "^5.1.6",
+    "gulp-stylus": "^2.0.1",
+    "lost": "^6.2.0"
+  }
+}
