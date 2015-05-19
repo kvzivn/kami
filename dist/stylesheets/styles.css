@@ -1172,29 +1172,25 @@ body {
   display: table;
   clear: both;
 }
-.row:nth-of-type(6) .col {
-  background: #b0ce3d;
-}
-.row:nth-of-type(6) .col .col {
-  background: #a1be30;
-}
 .col {
   position: relative;
-  box-sizing: border-box;
   height: 50px;
   line-height: 50px;
   text-align: center;
   background: #bad455;
 }
-.background-grid {
+.row--bg {
   position: absolute;
   width: 100%;
   top: -15px;
   left: 0;
 }
-.background-grid .bg-col {
+.row--bg .col {
   height: 480px;
   background: #f1f6dd;
+}
+.row:nth-of-type(6) .col .col {
+  background: #a1be30;
 }
 
 /*# sourceMappingURL=styles.css.map */

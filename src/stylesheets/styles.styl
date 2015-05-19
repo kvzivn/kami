@@ -11,35 +11,32 @@ body {
   lost-center: 980px;
 }
 
-.row {
-  &:nth-of-type(6) {
-    .col {
-      background: darken(#BAD455, 10%);
-      .col {
-        background: darken(#BAD455, 20%);
-      }
-    }
-  }
-}
-
 .col {
   position: relative;
-  box-sizing: border-box;
   height: 50px;
   line-height: 50px;
   text-align: center;
   background: #BAD455;
 }
 
-.background-grid {
+.row--bg {
   position: absolute;
   width 100%;
   top:  -15px;
   left: 0;
 
-  .bg-col {
+  .col {
     height: 480px;
     background: lighten(#BAD455, 80%);
   }
 }
 
+.row {
+  &:nth-of-type(6) {
+    .col {
+      .col {
+        background: darken(#BAD455, 20%);
+      }
+    }
+  }
+}
