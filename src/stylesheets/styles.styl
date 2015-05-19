@@ -11,6 +11,26 @@ body {
   lost-center: 980px;
 }
 
+.col {
+  position: relative;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background: #BAD455;
+}
+
+.row--bg {
+  position: absolute;
+  width 100%;
+  top:  -15px;
+  left: 0;
+
+  .col {
+    height: 480px;
+    background: lighten(#BAD455, 80%);
+  }
+}
+
 .row {
   &:nth-of-type(6) {
     .col {
@@ -22,24 +42,6 @@ body {
   }
 }
 
-.col {
-  position: relative;
-  box-sizing: border-box;
-  height: 50px;
-  line-height: 50px;
-  text-align: center;
-  background: #BAD455;
-}
 
-.background-grid {
-  position: absolute;
-  width 100%;
-  top:  -15px;
-  left: 0;
 
-  .bg-col {
-    height: 480px;
-    background: lighten(#BAD455, 80%);
-  }
-}
 
