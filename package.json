@@ -1,7 +1,7 @@
 {
-  "name": "tenko",
+  "name": "kami",
   "version": "1.0.0",
-  "description": "A grid system example built with lost.",
+  "description": "A grid system built with lost.",
   "author": "Kevin Ivan (http://kevinivan.com)",
   "license": "MIT",
   "dependencies": {
