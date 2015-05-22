@@ -1,4 +1,4 @@
-# Tenko
+# Kami
 
 Demo site.
 
