@@ -2,4 +2,4 @@
 
 Demo site.
 
-http://kvzivn.github.io/tenko/
+http://kvzivn.github.io/kami/
