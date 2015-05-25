@@ -97,23 +97,6 @@
 .width1of4:nth-child(4n + 1) {
   clear: left;
 }
-.width2of4 {
-  width: calc(99.99% * 2/4 - (30px - 30px * 2/4));
-}
-.width2of4:nth-child(n) {
-  float: left;
-  margin-right: 30px;
-  clear: none;
-}
-.width2of4:last-child {
-  margin-right: 0;
-}
-.width2of4:nth-child(4n) {
-  margin-right: 0;
-}
-.width2of4:nth-child(4n + 1) {
-  clear: left;
-}
 .width3of4 {
   width: calc(99.99% * 3/4 - (30px - 30px * 3/4));
 }
@@ -214,23 +197,6 @@
   margin-right: 0;
 }
 .width1of6:nth-child(6n + 1) {
-  clear: left;
-}
-.width2of6 {
-  width: calc(99.99% * 2/6 - (30px - 30px * 2/6));
-}
-.width2of6:nth-child(n) {
-  float: left;
-  margin-right: 30px;
-  clear: none;
-}
-.width2of6:last-child {
-  margin-right: 0;
-}
-.width2of6:nth-child(6n) {
-  margin-right: 0;
-}
-.width2of6:nth-child(6n + 1) {
   clear: left;
 }
 .width3of6 {
@@ -1150,6 +1116,201 @@
 }
 .width11of12:nth-child(12n + 1) {
   clear: left;
+}
+.offset1of1 {
+  margin-left: calc(99.99% * (-1/1 * -1) - (30px - 30px * (-1/1 * -1)) + 30px) !important;
+}
+.offset1of2 {
+  margin-left: calc(99.99% * (-1/2 * -1) - (30px - 30px * (-1/2 * -1)) + 30px) !important;
+}
+.offset1of3 {
+  margin-left: calc(99.99% * (-1/3 * -1) - (30px - 30px * (-1/3 * -1)) + 30px) !important;
+}
+.offset2of3 {
+  margin-left: calc(99.99% * (-2/3 * -1) - (30px - 30px * (-2/3 * -1)) + 30px) !important;
+}
+.offset1of4 {
+  margin-left: calc(99.99% * (-1/4 * -1) - (30px - 30px * (-1/4 * -1)) + 30px) !important;
+}
+.offset3of4 {
+  margin-left: calc(99.99% * (-3/4 * -1) - (30px - 30px * (-3/4 * -1)) + 30px) !important;
+}
+.offset1of5 {
+  margin-left: calc(99.99% * (-1/5 * -1) - (30px - 30px * (-1/5 * -1)) + 30px) !important;
+}
+.offset2of5 {
+  margin-left: calc(99.99% * (-2/5 * -1) - (30px - 30px * (-2/5 * -1)) + 30px) !important;
+}
+.offset3of5 {
+  margin-left: calc(99.99% * (-3/5 * -1) - (30px - 30px * (-3/5 * -1)) + 30px) !important;
+}
+.offset4of5 {
+  margin-left: calc(99.99% * (-4/5 * -1) - (30px - 30px * (-4/5 * -1)) + 30px) !important;
+}
+.offset1of6 {
+  margin-left: calc(99.99% * (-1/6 * -1) - (30px - 30px * (-1/6 * -1)) + 30px) !important;
+}
+.offset3of6 {
+  margin-left: calc(99.99% * (-3/6 * -1) - (30px - 30px * (-3/6 * -1)) + 30px) !important;
+}
+.offset4of6 {
+  margin-left: calc(99.99% * (-4/6 * -1) - (30px - 30px * (-4/6 * -1)) + 30px) !important;
+}
+.offset5of6 {
+  margin-left: calc(99.99% * (-5/6 * -1) - (30px - 30px * (-5/6 * -1)) + 30px) !important;
+}
+.offset1of7 {
+  margin-left: calc(99.99% * (-1/7 * -1) - (30px - 30px * (-1/7 * -1)) + 30px) !important;
+}
+.offset2of7 {
+  margin-left: calc(99.99% * (-2/7 * -1) - (30px - 30px * (-2/7 * -1)) + 30px) !important;
+}
+.offset3of7 {
+  margin-left: calc(99.99% * (-3/7 * -1) - (30px - 30px * (-3/7 * -1)) + 30px) !important;
+}
+.offset4of7 {
+  margin-left: calc(99.99% * (-4/7 * -1) - (30px - 30px * (-4/7 * -1)) + 30px) !important;
+}
+.offset5of7 {
+  margin-left: calc(99.99% * (-5/7 * -1) - (30px - 30px * (-5/7 * -1)) + 30px) !important;
+}
+.offset6of7 {
+  margin-left: calc(99.99% * (-6/7 * -1) - (30px - 30px * (-6/7 * -1)) + 30px) !important;
+}
+.offset1of8 {
+  margin-left: calc(99.99% * (-1/8 * -1) - (30px - 30px * (-1/8 * -1)) + 30px) !important;
+}
+.offset2of8 {
+  margin-left: calc(99.99% * (-2/8 * -1) - (30px - 30px * (-2/8 * -1)) + 30px) !important;
+}
+.offset3of8 {
+  margin-left: calc(99.99% * (-3/8 * -1) - (30px - 30px * (-3/8 * -1)) + 30px) !important;
+}
+.offset4of8 {
+  margin-left: calc(99.99% * (-4/8 * -1) - (30px - 30px * (-4/8 * -1)) + 30px) !important;
+}
+.offset5of8 {
+  margin-left: calc(99.99% * (-5/8 * -1) - (30px - 30px * (-5/8 * -1)) + 30px) !important;
+}
+.offset6of8 {
+  margin-left: calc(99.99% * (-6/8 * -1) - (30px - 30px * (-6/8 * -1)) + 30px) !important;
+}
+.offset7of8 {
+  margin-left: calc(99.99% * (-7/8 * -1) - (30px - 30px * (-7/8 * -1)) + 30px) !important;
+}
+.offset1of9 {
+  margin-left: calc(99.99% * (-1/9 * -1) - (30px - 30px * (-1/9 * -1)) + 30px) !important;
+}
+.offset2of9 {
+  margin-left: calc(99.99% * (-2/9 * -1) - (30px - 30px * (-2/9 * -1)) + 30px) !important;
+}
+.offset3of9 {
+  margin-left: calc(99.99% * (-3/9 * -1) - (30px - 30px * (-3/9 * -1)) + 30px) !important;
+}
+.offset4of9 {
+  margin-left: calc(99.99% * (-4/9 * -1) - (30px - 30px * (-4/9 * -1)) + 30px) !important;
+}
+.offset5of9 {
+  margin-left: calc(99.99% * (-5/9 * -1) - (30px - 30px * (-5/9 * -1)) + 30px) !important;
+}
+.offset6of9 {
+  margin-left: calc(99.99% * (-6/9 * -1) - (30px - 30px * (-6/9 * -1)) + 30px) !important;
+}
+.offset7of9 {
+  margin-left: calc(99.99% * (-7/9 * -1) - (30px - 30px * (-7/9 * -1)) + 30px) !important;
+}
+.offset8of9 {
+  margin-left: calc(99.99% * (-8/9 * -1) - (30px - 30px * (-8/9 * -1)) + 30px) !important;
+}
+.offset1of10 {
+  margin-left: calc(99.99% * (-1/10 * -1) - (30px - 30px * (-1/10 * -1)) + 30px) !important;
+}
+.offset2of10 {
+  margin-left: calc(99.99% * (-2/10 * -1) - (30px - 30px * (-2/10 * -1)) + 30px) !important;
+}
+.offset3of10 {
+  margin-left: calc(99.99% * (-3/10 * -1) - (30px - 30px * (-3/10 * -1)) + 30px) !important;
+}
+.offset4of10 {
+  margin-left: calc(99.99% * (-4/10 * -1) - (30px - 30px * (-4/10 * -1)) + 30px) !important;
+}
+.offset5of10 {
+  margin-left: calc(99.99% * (-5/10 * -1) - (30px - 30px * (-5/10 * -1)) + 30px) !important;
+}
+.offset6of10 {
+  margin-left: calc(99.99% * (-6/10 * -1) - (30px - 30px * (-6/10 * -1)) + 30px) !important;
+}
+.offset7of10 {
+  margin-left: calc(99.99% * (-7/10 * -1) - (30px - 30px * (-7/10 * -1)) + 30px) !important;
+}
+.offset8of10 {
+  margin-left: calc(99.99% * (-8/10 * -1) - (30px - 30px * (-8/10 * -1)) + 30px) !important;
+}
+.offset9of10 {
+  margin-left: calc(99.99% * (-9/10 * -1) - (30px - 30px * (-9/10 * -1)) + 30px) !important;
+}
+.offset1of11 {
+  margin-left: calc(99.99% * (-1/11 * -1) - (30px - 30px * (-1/11 * -1)) + 30px) !important;
+}
+.offset2of11 {
+  margin-left: calc(99.99% * (-2/11 * -1) - (30px - 30px * (-2/11 * -1)) + 30px) !important;
+}
+.offset3of11 {
+  margin-left: calc(99.99% * (-3/11 * -1) - (30px - 30px * (-3/11 * -1)) + 30px) !important;
+}
+.offset4of11 {
+  margin-left: calc(99.99% * (-4/11 * -1) - (30px - 30px * (-4/11 * -1)) + 30px) !important;
+}
+.offset5of11 {
+  margin-left: calc(99.99% * (-5/11 * -1) - (30px - 30px * (-5/11 * -1)) + 30px) !important;
+}
+.offset6of11 {
+  margin-left: calc(99.99% * (-6/11 * -1) - (30px - 30px * (-6/11 * -1)) + 30px) !important;
+}
+.offset7of11 {
+  margin-left: calc(99.99% * (-7/11 * -1) - (30px - 30px * (-7/11 * -1)) + 30px) !important;
+}
+.offset8of11 {
+  margin-left: calc(99.99% * (-8/11 * -1) - (30px - 30px * (-8/11 * -1)) + 30px) !important;
+}
+.offset9of11 {
+  margin-left: calc(99.99% * (-9/11 * -1) - (30px - 30px * (-9/11 * -1)) + 30px) !important;
+}
+.offset10of11 {
+  margin-left: calc(99.99% * (-10/11 * -1) - (30px - 30px * (-10/11 * -1)) + 30px) !important;
+}
+.offset1of12 {
+  margin-left: calc(99.99% * (-1/12 * -1) - (30px - 30px * (-1/12 * -1)) + 30px) !important;
+}
+.offset2of12 {
+  margin-left: calc(99.99% * (-2/12 * -1) - (30px - 30px * (-2/12 * -1)) + 30px) !important;
+}
+.offset3of12 {
+  margin-left: calc(99.99% * (-3/12 * -1) - (30px - 30px * (-3/12 * -1)) + 30px) !important;
+}
+.offset4of12 {
+  margin-left: calc(99.99% * (-4/12 * -1) - (30px - 30px * (-4/12 * -1)) + 30px) !important;
+}
+.offset5of12 {
+  margin-left: calc(99.99% * (-5/12 * -1) - (30px - 30px * (-5/12 * -1)) + 30px) !important;
+}
+.offset6of12 {
+  margin-left: calc(99.99% * (-6/12 * -1) - (30px - 30px * (-6/12 * -1)) + 30px) !important;
+}
+.offset7of12 {
+  margin-left: calc(99.99% * (-7/12 * -1) - (30px - 30px * (-7/12 * -1)) + 30px) !important;
+}
+.offset8of12 {
+  margin-left: calc(99.99% * (-8/12 * -1) - (30px - 30px * (-8/12 * -1)) + 30px) !important;
+}
+.offset9of12 {
+  margin-left: calc(99.99% * (-9/12 * -1) - (30px - 30px * (-9/12 * -1)) + 30px) !important;
+}
+.offset10of12 {
+  margin-left: calc(99.99% * (-10/12 * -1) - (30px - 30px * (-10/12 * -1)) + 30px) !important;
+}
+.offset11of12 {
+  margin-left: calc(99.99% * (-11/12 * -1) - (30px - 30px * (-11/12 * -1)) + 30px) !important;
 }
 body {
   font-family: 'Titillium Web', sans-serif;
