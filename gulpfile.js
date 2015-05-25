@@ -11,7 +11,7 @@ gulp.task('styles', function() {
     .pipe(stylus())
     .pipe(postcss([
       lost(),
-      autoprefixer()
+      autoprefixer('last 2 versions')
     ]))
     .pipe(sourcemaps.write('./'))
     .pipe(gulp.dest('dist/stylesheets'));
