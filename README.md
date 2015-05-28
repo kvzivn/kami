@@ -1,3 +1,5 @@
 #Kami
 
-A simple CSS grid example build with [Lost](https://github.com/corysimmons/lost)
+A simple Stylus grid example built with [Lost](https://github.com/corysimmons/lost)
+
+Here's a [demo.](http://kvzivn.github.io/kami/)
