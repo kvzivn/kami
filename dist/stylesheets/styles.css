@@ -1576,6 +1576,13 @@ body {
   font-family: 'Titillium Web', sans-serif;
   text-align: center;
 }
+a {
+  color: #000;
+  text-decoration: none;
+}
+a:hover {
+  color: #555;
+}
 .container {
   position: relative;
   margin-top: 25px;
