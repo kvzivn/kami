@@ -1573,7 +1573,7 @@ a:hover {
   position: relative;
   margin-top: 25px;
   *zoom: 1;
-  max-width: 980px;
+  max-width: 960px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -1614,10 +1614,10 @@ a:hover {
   left: 0;
 }
 .row--bg .col {
-  height: 480px;
+  height: 400px;
   background: #f1f6dd;
 }
-.row:nth-of-type(6) .col .col {
+.row:nth-of-type(5) .col .col {
   background: #a1be30;
 }
 
