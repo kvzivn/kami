@@ -1,12 +1,21 @@
-// Total columns for layout
 total-columns = 12
+col-widths = ()
+
 for i in 1..total-columns
-  for j in 1..i
-    width = (j/i)
-    offset = -(j/i)
-    // Create column classes
-    .width{j}of{i}
-      lost-column: width
-    // Create offset classes
-    .offset{j}of{i}
-      lost-offset: offset
+   for j in 1..i
+
+     // width
+     w = (j/i)
+     // offset
+     o = -(j/i)
+
+     unless w && o in col-widths
+
+       .width{j}of{i}
+         lost-column: w
+       push(col-widths, w)
+
+       .offset{j}of{i}
+         lost-offset: o
+       push(col-widths, o)
+
